@@ -39,3 +39,21 @@ The _Resource Group_ will act as a container for all the different components of
 ![Import the data from the visits.typed file](images/data/6.png)
 
 [go back to top](#azure-search-workshop)
+
+## Azure Search
+### Setting Up the Search
+![Find the Azure Search resource](images/search/setup/1.png)
+![Create the Azure Search resource](images/search/setup/2.png)
+
+[go back to top](#azure-search-workshop)
+
+### Creating An Index
+![Click on the option to import data](images/search/index/1.png)
+![Connect to the Table Storage data source](images/search/index/2.png)
+![Select the fields to index](images/search/index/3.png)
+![Give the indexer a name and schedule](images/search/index/4.png)
+![Click on the option to open the Search Explorer](images/search/index/5.png)
+![Test out the indexer](images/search/index/6.png)
+
+[go back to top](#azure-search-workshop)
+
