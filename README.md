@@ -4,6 +4,9 @@
 * [Prerequisites](#prerequisites)
 * [Create a Resource Group](#create-a-resource-group)
 * [Setting the Data Source Up](#setting-the-data-source-up)
+* [Azure Search](#azure-search)
+  * [Setting Up the Search](#setting-up-the-search)
+  * [Creating An Index](#creating-an-index)
 
 ## Prerequisites
 * [Visual Studio](https://www.visualstudio.com/vs/) (with _Azure Development_ tools)
