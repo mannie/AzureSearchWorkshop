@@ -27,6 +27,8 @@ The _Resource Group_ will act as a container for all the different components of
 1. Add a unique name for the resource group; give it a name related to the project.
 1. Hit _Create_.
 
+[go back to top](#azure-search-workshop)
+
 ## Setting the Data Source Up
 
 ![Find the Storage Account resource](images/data/1.png)
@@ -35,3 +37,5 @@ The _Resource Group_ will act as a container for all the different components of
 ![Create a new table](images/data/4.png)
 ![Find the newly created table in Azure Storage Explorer](images/data/5.png)
 ![Import the data from the visits.typed file](images/data/6.png)
+
+[go back to top](#azure-search-workshop)
