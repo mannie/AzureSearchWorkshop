@@ -1,0 +1,26 @@
+ [
+  {
+  "PartitionKey": "",
+  "RowKey": "",
+  "Timestamp": "",
+  "Allergies": "",
+  "ChiefComplaint": "",
+  "FamilyHistory": "",
+  "HistoryOfPresentIllness": "",
+  "Informants": "",
+  "MedicalHistory": "",
+  "Medications": "",
+  "Name": "",
+  "PhysicalExamination": "",
+  "Plan": "",
+  "SocialHistory": "",
+  "HealthMaintainance": "",
+  "LabData": "",
+  "PertinentDiagnosticTests": "",
+  "ReviewOfSystems": "",
+  "Assessment": "",
+  "SurgicalHistory": "",
+  "ProblemList": "",
+  "Discussion": ""
+  }
+]

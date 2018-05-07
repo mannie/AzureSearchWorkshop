@@ -1,62 +1,41 @@
-# Azure Search Workshop
+# Azure Serverless Workshop
 
-## Table of Contents
-* [Prerequisites](#prerequisites)
-* [Create a Resource Group](#create-a-resource-group)
-* [Setting the Data Source Up](#setting-the-data-source-up)
-* [Azure Search](#azure-search)
-  * [Setting Up the Search](#setting-up-the-search)
-  * [Creating An Index](#creating-an-index)
+Serverless is reshaping the way developers think about software/system architectures. By simplifying infrastructure, technologies such as Functions, Logic Apps, and ServiceBus have made is easier to develop reusable APIs (consumed by mobile, desktop, web, and IoT clients). 
 
-## Prerequisites
-* [Visual Studio](https://www.visualstudio.com/vs/) (with _Azure Development_ tools)
-* [Azure Subscription](https://azure.microsoft.com/en-us/free/))
-* [Azure Storage Explorer](https://azure.microsoft.com/en-us/features/storage-explorer/)
+The burden of managing infrastructure no longer lies with the developer, leaving them to focus on solving the problem (i.e. writing code) instead of worrying about managing the environment. Infrastructure professionals also benefit from PaaS; thanks to auto-scale and micro-billing, there are financial savings to be realized without sacrificing scalability per demand.
 
-## Create a Resource Group
-The _Resource Group_ will act as a container for all the different components of this project. Be sure to select a _Resouce Group Location_ that contains most/all of the following services as per [service availability reference](https://azure.microsoft.com/en-us/global-infrastructure/services/):
-* Azure Service
-* Azure Bot Service
-* Language Understanding (LUIS)
-* Service Bus
-* Logic Apps
-* Functions
-* Visual Studio Team Services
+In this workshop, you will develop an end-to-end data discovery solution using:
+* Cosmos DB— for data storage;
+* Logic Apps- to import the data into Cosmos DB;
+* Functions— for sanitization of data prior to storage in Cosmos DB;
+* Azure Search— to facilitate discovery of data stored in the databse;
+* Bot Service— to query the data base using natural language;
+* LUIS— to provide natural language processing functionality to the chatbot;
+* VSTS— for DevOps around the development and deployment of the chatbot's code. 
 
-![Instructions](images/create-a-resource-group.png)
 
-1. Click _Resource Groups_ in the navigation menu.
-1. Click _Add_ in the _Resource Groups_ panel.
-1. Add a unique name for the resource group; give it a name related to the project.
-1. Hit _Create_.
+## Target Audience
+* Technical roles (engineers, architects, infrastructure managers, etc.)
+* Anyone inteested in automating business processes
+* Anyone interested in learning about Azure and Serverless
 
-[go back to top](#azure-search-workshop)
+## Requirements
+* [Visual Studio](https://www.visualstudio.com/vs/) (with _Azure Development_ tools installed)
+* [Azure Subscription](https://azure.microsoft.com/en-us/free/)
+* Postman
 
-## Setting the Data Source Up
+## Agenda
 
-![Find the Storage Account resource](images/data/1.png)
-![Create the Storage Account resource](images/data/2.png)
-![Navigate to Tables screen](images/data/3.png)
-![Create a new table](images/data/4.png)
-![Find the newly created table in Azure Storage Explorer](images/data/5.png)
-![Import the data from the visits.typed file](images/data/6.png)
-
-[go back to top](#azure-search-workshop)
-
-## Azure Search
-### Setting Up the Search
-![Find the Azure Search resource](images/search/setup/1.png)
-![Create the Azure Search resource](images/search/setup/2.png)
-
-[go back to top](#azure-search-workshop)
-
-### Creating An Index
-![Click on the option to import data](images/search/index/1.png)
-![Connect to the Table Storage data source](images/search/index/2.png)
-![Select the fields to index](images/search/index/3.png)
-![Give the indexer a name and schedule](images/search/index/4.png)
-![Click on the option to open the Search Explorer](images/search/index/5.png)
-![Test out the indexer](images/search/index/6.png)
-
-[go back to top](#azure-search-workshop)
-
+| From  | To    | Session                                     |
+|-------|-------|---------------------------------------------|
+| 00:00 | 00:00 | Introductions and Overview                  |
+| 00:00 | 00:00 | Cosmos DB                                   |
+| 00:00 | 00:00 | Break                                       |
+| 00:00 | 00:00 | Functions                                   |
+| 00:00 | 00:00 | Logic Apps                                  |
+| 00:00 | 00:00 | Break                                       |
+| 00:00 | 00:00 | Azure Search                                |
+| 00:00 | 00:00 | Bot Service                                 |
+| 00:00 | 00:00 | Break                                       |
+| 00:00 | 00:00 | LUIS                                        |
+| 00:00 | 00:00 | Wrap Up                                     |
