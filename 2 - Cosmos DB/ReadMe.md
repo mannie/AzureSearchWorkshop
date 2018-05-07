@@ -1,6 +1,8 @@
 # Cosmos DB
 
-Cosmos DB is a high-throughput distributed database
+Azure Cosmos DB was built from the ground up with global distribution and horizontal scale at its core. It offers turnkey global distribution with multi-master support across any number of Azure regions by transparently scaling and replicating your data wherever your users are. Elastically scale throughput and storage worldwide, and pay only for what you need. Azure Cosmos DB provides native support for NoSQL choices, offers multiple well-defined consistency models, guarantees single-digit-millisecond latencies at the 99th percentile, and guarantees high availability with multi-homing capabilities and low latencies anywhere in the world— all backed by industry-leading, comprehensive service level agreements (SLAs).
+
+Learn more about [Cosmos DB](https://azure.microsoft.com/en-us/services/cosmos-db/) by reading the [documentation](https://docs.microsoft.com/en-us/azure/cosmos-db/).
 
 ---
 
