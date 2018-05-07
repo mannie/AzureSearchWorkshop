@@ -21,7 +21,7 @@ In this workshop, you will develop an end-to-end data discovery solution using:
 ## Requirements
 * [Visual Studio](https://www.visualstudio.com/vs/) (with _Azure Development_ tools installed)
 * [Azure Subscription](https://azure.microsoft.com/en-us/free/)
-* Postman
+* [Postman](https://www.getpostman.com)
 
 ---
 
