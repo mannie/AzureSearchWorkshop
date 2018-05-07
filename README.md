@@ -13,7 +13,6 @@ In this workshop, you will develop an end-to-end data discovery solution using:
 * LUIS— to provide natural language processing functionality to the chatbot;
 * VSTS— for DevOps around the development and deployment of the chatbot's code. 
 
-
 ## Target Audience
 * Technical roles (engineers, architects, infrastructure managers, etc.)
 * Anyone inteested in automating business processes
@@ -23,6 +22,8 @@ In this workshop, you will develop an end-to-end data discovery solution using:
 * [Visual Studio](https://www.visualstudio.com/vs/) (with _Azure Development_ tools installed)
 * [Azure Subscription](https://azure.microsoft.com/en-us/free/)
 * Postman
+
+---
 
 ## Agenda
 
