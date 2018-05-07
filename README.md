@@ -13,6 +13,8 @@ In this workshop, you will develop an end-to-end data discovery solution using:
 * LUIS— to provide natural language processing functionality to the chatbot;
 * VSTS— for DevOps around the development and deployment of the chatbot's code. 
 
+---
+
 ## Target Audience
 * Technical roles (engineers, architects, infrastructure managers, etc.)
 * Anyone interested in automating business processes
@@ -27,16 +29,15 @@ In this workshop, you will develop an end-to-end data discovery solution using:
 
 ## Agenda
 
-| From  | To    | Session                                     |
-|-------|-------|---------------------------------------------|
-| 00:00 | 00:00 | Introductions and Overview                  |
-| 00:00 | 00:00 | Cosmos DB                                   |
-| 00:00 | 00:00 | Break                                       |
-| 00:00 | 00:00 | Functions                                   |
-| 00:00 | 00:00 | Logic Apps                                  |
-| 00:00 | 00:00 | Break                                       |
-| 00:00 | 00:00 | Azure Search                                |
-| 00:00 | 00:00 | Bot Service                                 |
-| 00:00 | 00:00 | Break                                       |
-| 00:00 | 00:00 | LUIS                                        |
-| 00:00 | 00:00 | Wrap Up                                     |
+| From  | To    | Session                                       | Duration |
+|-------|-------|-----------------------------------------------|----------|
+| 09:30 | 10:00 | Introductions, Agenda Review, Project scoping | 30 mins  |
+| 10:00 | 11:00 | Cosmos DB                                     | 1 hour   |
+| 11:00 | 11:10 | Break                                         | 10 mins  |
+| 11:10 | 12:00 | Functions                                     | 50 mins  |
+| 12:00 | 13:00 | Lunch                                         | 1 hour   |
+| 13:00 | 14:00 | Logic Apps                                    | 1 hour   |
+| 14:00 | 14:45 | Cognitive Services (Azure Search & LUIS)      | 45 mins  |
+| 14:45 | 15:00 | Break                                         | 15 mins  |
+| 15:00 | 16:00 | Bot Service                                   | 1 hour   |
+
