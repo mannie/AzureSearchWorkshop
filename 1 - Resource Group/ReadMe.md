@@ -11,8 +11,8 @@ The _Resource Group_ will act as a container for all the different components of
 
 --- 
 
-![Instructions](images/1.png)
 1. Click _Resource groups_ in the navigation menu.
 1. Click _Add_ in the _Resource Groups_ panel.
 1. Add a unique name for the resource group; give it a name related to the project.
 1. Hit _Create_.
+![Instructions](images/1.png)
