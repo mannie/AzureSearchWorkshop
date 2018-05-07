@@ -15,7 +15,7 @@ In this workshop, you will develop an end-to-end data discovery solution using:
 
 ## Target Audience
 * Technical roles (engineers, architects, infrastructure managers, etc.)
-* Anyone inteested in automating business processes
+* Anyone interested in automating business processes
 * Anyone interested in learning about Azure and Serverless
 
 ## Requirements
