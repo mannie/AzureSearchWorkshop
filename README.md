@@ -5,13 +5,13 @@ Serverless is reshaping the way developers think about software/system architect
 The burden of managing infrastructure no longer lies with the developer, leaving them to focus on solving the problem (i.e. writing code) instead of worrying about managing the environment. Infrastructure professionals also benefit from PaaS; thanks to auto-scale and micro-billing, there are financial savings to be realized without sacrificing scalability per demand.
 
 In this workshop, you will develop an end-to-end data discovery solution using:
-* Cosmos DB— for data storage;
-* Logic Apps- to import the data into Cosmos DB;
-* Functions— for sanitization of data prior to storage in Cosmos DB;
-* Azure Search— to facilitate discovery of data stored in the databse;
-* Bot Service— to query the data base using natural language;
-* LUIS— to provide natural language processing functionality to the chatbot;
-* VSTS— for DevOps around the development and deployment of the chatbot's code. 
+* [Cosmos DB](https://azure.microsoft.com/en-us/services/cosmos-db/)— for data storage;
+* [Logic Apps](https://azure.microsoft.com/en-us/services/logic-apps/)- to import the data into Cosmos DB;
+* [Functions](https://azure.microsoft.com/en-us/services/functions/)— for sanitization of data prior to storage in Cosmos DB;
+* [Azure Search](https://azure.microsoft.com/en-us/services/search/)— to facilitate discovery of data stored in the databse;
+* [Bot Service](https://azure.microsoft.com/en-us/services/bot-service/)— to query the data base using natural language;
+* [LUIS](https://azure.microsoft.com/en-us/services/cognitive-services/language-understanding-intelligent-service/)— to provide natural language processing functionality to the chatbot;
+* [VSTS](https://azure.microsoft.com/en-us/services/visual-studio-team-services/)— for DevOps around the development and deployment of the chatbot's code. 
 
 ---
 
