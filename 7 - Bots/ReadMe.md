@@ -38,7 +38,7 @@ git push -u origin --all
 
             var results = new List<String>();
             foreach (dynamic r in json.value)
-                results.Add(r.Key.ToString());
+                results.Add(r.id.ToString());
 
             await context.PostAsync($"Results found: {String.Join(", ", results)}");
             await context.PostAsync($"Query: {uri}");
