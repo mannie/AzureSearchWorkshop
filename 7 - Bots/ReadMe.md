@@ -1,5 +1,12 @@
-# Bots
+# Bot Service
 
+A bot is an app that users interact with in a conversational way using text, graphics (cards), or speech. It may be a simple question and answer dialog, or a sophisticated bot that allows people to interact with services in an intelligent manner using pattern matching, state tracking and artificial intelligence techniques well-integrated with existing business services. 
+
+Azure Bot Service provides tools to build, test, deploy, and manage intelligent bots all in one place. Through the modular and extensible framework provided by the SDK, developers can leverage templates to create bots that provide speech, language understanding, question and answer, and more. 
+
+Learn more about [Bot Service](https://azure.microsoft.com/en-us/services/bot-service/) by referring to the [documentation](https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-3.0).
+
+---
 
 ![](images/1.png)
 ![](images/2.png)
