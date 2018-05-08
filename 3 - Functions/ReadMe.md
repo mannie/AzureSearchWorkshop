@@ -1,6 +1,6 @@
 # Functions
 
-Azure Functions is a serverless compute service that enables you to run code on-demand without having to explicitly provision or manage infrastructure. Use Azure Functions to run a script or piece of code in response to a variety of events.
+Azure Functions is a solution for easily running small pieces of code, or "functions," in the cloud. You can write just the code you need for the problem at hand, without worrying about a whole application or the infrastructure to run it. Functions can make development even more productive, and you can use your development language of choice, such as C#, F#, Node.js, Java, or PHP. Pay only for the time your code runs and trust Azure to scale as needed.
 
 Learn more about [Functions](https://azure.microsoft.com/en-us/services/functions/) by referring to the [documentation](https://docs.microsoft.com/en-us/azure/azure-functions/).
 
