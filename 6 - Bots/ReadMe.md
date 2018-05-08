@@ -8,66 +8,35 @@ Learn more about [Bot Service](https://azure.microsoft.com/en-us/services/bot-se
 
 ---
 
-![](images/1.png)
-![](images/2.png)
-![](images/3.png)
-![](images/4.png)
-![](images/5.png)
+1. Click _Create a resource_ and select _Web App Bot_ from the _AI + Machine Learning_ section.
+![Find the Web App Bot resource](images/1.png)
 
-```
-git init
-git add .
-git commit -m "Initial commit"
-git remote add origin https://hackathons-hls.visualstudio.com/_git/HackathonHLS
-git push -u origin --all
-```
+1. Give the bot a name and assign it to the resource group created earlier. Make sure to select _Language understanding_ as the _Bot template_ and C# as the development language.
+![Select the LUIS bot template](images/2.png)
 
-![](images/6.png)
-![](images/7.png)
-![](images/8.png)
+1. For _Azure storeage_, select an existing one; select the one created for this hackathon as a side-effect of earlier stages. Acknowledge the notice and click _Create_.
+![Reuse storage and create the resource](images/3.png)
 
-```
-        [LuisIntent("Search")]
-        public async Task SearchIntent(IDialogContext context, LuisResult result)
-        {
-            var problems = result.Entities.Where(e => e.Type == "problem").Select(p => p.Entity);
+1. Obtain the source code for the bot by clicking _Build_, then _Download zip file_. Once a download url has been generated, click _Download zip file_.
+![Download source code](images/4.png)
 
-            var query = String.Join("+", problems);
-            var uri = $"https://hackathon-hls.search.windows.net/indexes/problems/docs?api-version=2016-09-01&search={query}";
+1. Create a new Git repo in VSTS; this is the repo which will be used for CD.
+![Create a repo for CD](images/5.png)
 
-            var client = new HttpClient();
-            client.DefaultRequestHeaders.Add("Accept", "application/json");
-            client.DefaultRequestHeaders.Add("api-key", "API_KEY");
+1. In the bot where we left off, click on _Configure continous deployment_.
+![Set up CD](images/6.png)
 
-            var response = await client.GetAsync(uri);
-            var jsonString = await response.Content.ReadAsStringAsync();
-            dynamic json = JsonConvert.DeserializeObject<dynamic>(jsonString);
+1. Click _Setup_ and select the repository we created in prior steps. Click _OK_.
+![Link the bot to the VSTS repo for CD](images/7.png)
 
-            var results = new List<String>();
-            foreach (dynamic r in json.value)
-                results.Add(r.id.ToString());
+1. Extract the zip archive containing the bot's source code, and navigate to the extracted folder via CLI. Enter the commands in [cd.commands](cd.commands) to push the bot's source code to the VSTS repo. Ensure to update the URL to point to the new repo you just created.
 
-            await context.PostAsync($"Results found: {String.Join(", ", results)}");
-            await context.PostAsync($"Query: {uri}");
+1. Obtain an API key for Azure Search to use with the bot. Navigate to the Azure Search resource we created earlier, click _Keys_, and copy either primary or secondary keys.
+![Obtain Azure Search API key](images/8.png)
 
-            context.Wait(MessageReceived);
-        }
-```
+1. Copy the code in [intent.snippet](intent.snippet) into _BasicLuisDialog.cs_ (in the _Dialogs_ folder of the bot's source code). Place it about the _Greeting_ intent. Be sure to update `uri` and `API_KEY` to the appropriate values in the process.
+![Paste the intent code in](images/9.png)
 
-```
-using System.Linq;
-using System.Net.Http;
-using Newtonsoft.Json;
-using System.Collections.Generic;
-```
+1. Paste the contents of [imports.snippet](imports.snippet) into _BasicLuisDialog.cs_, near the top of the file, close to the other import statements.
 
-![](images/9.png)
-
-```
-git add .
-git commit -m "Add support for the Search LUIS intent"
-git push
-```
-
-![](images/10.png)
-
+1. Push the changes to the git repo upstream; refer to [push.commands](push.commands).
