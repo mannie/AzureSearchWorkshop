@@ -1,4 +1,4 @@
-# Azure Serverless Workshop
+# Azure Search Workshop
 
 Serverless is reshaping the way developers think about software/system architectures. By simplifying infrastructure, technologies such as Functions, Logic Apps, and ServiceBus have made is easier to develop reusable APIs (consumed by mobile, desktop, web, and IoT clients). 
 
