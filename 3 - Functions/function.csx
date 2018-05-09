@@ -25,7 +25,7 @@ public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceW
         }
     }
 
-    return data.Count == 0
+    return output.Count == 0
         ? req.CreateResponse(HttpStatusCode.BadRequest, "Unexpected body")
         : req.CreateResponse(HttpStatusCode.OK, output);
 }
