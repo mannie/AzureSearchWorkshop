@@ -11,19 +11,22 @@ In this workshop, you will develop an end-to-end data discovery solution using:
 * [Azure Search](https://azure.microsoft.com/en-us/services/search/)— to facilitate discovery of data stored in the databse;
 * [Bot Service](https://azure.microsoft.com/en-us/services/bot-service/)— to query the data base using natural language;
 * [LUIS](https://azure.microsoft.com/en-us/services/cognitive-services/language-understanding-intelligent-service/)— to provide natural language processing functionality to the chatbot;
-* [VSTS](https://azure.microsoft.com/en-us/services/visual-studio-team-services/)— for DevOps around the development and deployment of the chatbot's code. 
+* [VSTS](https://azure.microsoft.com/en-us/services/visual-studio-team-services/)— for DevOps around the development and deployment of the chatbot's code;
+* [API Management](https://azure.microsoft.com/en-us/services/api-management/)— for management of access to the aforementioned services.
 
 ---
 
 ## Target Audience
-* Technical roles (engineers, architects, infrastructure managers, etc.)
-* Anyone interested in automating business processes
-* Anyone interested in learning about Azure and Serverless
+* Technical roles (engineers, architects, infrastructure managers, etc.).
+* Anyone interested in automating business processes.
+* Anyone interested in learning about Azure and Serverless.
 
 ## Requirements
 * [Visual Studio](https://www.visualstudio.com/vs/) (with _Azure Development_ tools installed)
 * [Azure Subscription](https://azure.microsoft.com/en-us/free/)
-* [Postman](https://www.getpostman.com)
+* [Postman](https://www.getpostman.com) or a similar HTTP request simulator
+* Access to the [LUIS Portal](https://www.luis.ai/)
+* Access to the [VSTS Portal](https://app.vsaex.visualstudio.com), including permissions to create a new repo
 
 ---
 
